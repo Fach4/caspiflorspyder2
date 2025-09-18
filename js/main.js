@@ -10,7 +10,7 @@ var doc=document,flower=doc.querySelector('.flower'),petalPartMarkup='<div class
   spideyBg.style.top = '30px';
   spideyBg.style.left = '50%';
   spideyBg.style.transform = 'translateX(-50%)';
-  spideyBg.style.height = '120px';
+  spideyBg.style.height = '180px';
   spideyBg.style.zIndex = '1';
   spideyBg.style.pointerEvents = 'none';
   document.body.appendChild(spideyBg);
@@ -264,3 +264,4 @@ var doc=document,flower=doc.querySelector('.flower'),petalPartMarkup='<div class
     }
   });
 });
+
